@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Rubik&family=Taprom&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 5px;
+    margin: 3px;
+}
+.todo-page{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(51, 133, 228, 0.753);
+    max-width: max-content;
+    padding: 30px 50px;
+    margin: auto;
+    margin-top: 30px;
+}
+.header{
+    border: 2px transparent;
+    border-radius: 15px;
+    background-color: thistle;
+    max-width: max-content;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+.item-list{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    /* max-width: fit-content; */
+}
+.current-item{
+    border: 1px solid slategray;
+    border-radius: 15px;
+    min-width: 50vw;
+    background-color: snow;
+}
+input[type=text] {
+    border: 1px transparent;
+    outline: none;
+    /* max-width: min-content; */
+    width: 35vw;
+    font-family: 'Quicksand', sans-serif;
+    background-color: transparent;
+    text-align: center;
+}
+.saved-item{
+    background-color: ivory;
+    border: 1px solid goldenrod;
+    border-radius: 15px;
+    min-width: 50vw;
+    max-width: max-content;
+    padding: 10px 10px;
+    margin-top: 0px;
+    /* display: inline-flex; */
+}
+.saved-item li{
+    list-style: none;
+    padding: 20px 15px;
+    margin: 8px;
+    font-family: 'Quicksand';
+    border: 1px solid rgba(190, 199, 59, 0.678);
+    border-radius: 15px;
+    background-color: rgba(190, 199, 59, 0.678);
+}
+.saved-item li:hover{
+    /* background-color: rgba(255, 255, 182, 0.562); */
+    background-color: transparent;
+    color: black;
+    font-family: 'Quicksand';
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+input[type='checkbox'] {
+    margin: auto;
+    float: left;
+}
+/* span{
+    padding: 10px;
+} */
+
+
+.addButton{
+    background-color: rgba(51, 133, 228, 0.753);
+    color: ivory;
+    border: 1px solid rgba(51, 133, 228, 0.753);
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 0px 10px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+.addButton:hover{
+    background-color: rgb(255, 255, 182);
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    border: 1px solid black;
+}
+
+.delButton{
+    background-color: rgba(255, 0, 0, 0.658);
+    color: ivory;
+    border: 1px solid rgba(255, 0, 0, 0.747); 
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 0px 10px;
+    margin: 0px auto;
+    margin-top: -4px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bolder;
+    float: right;
+}
+.delButton:hover{
+    background-color: rgb(255, 255, 182);
+    color: red;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+
